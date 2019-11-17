@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <style>
+      body{
+          line-height: 1.8;
+      }
+      .navbar {
+  margin-bottom: 0;
+  background-color: #f4511e;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff;
+}     
+
+     .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+  }
+  .carousel-indicators li {
+    border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+    background-color: #f4511e;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+     .bg-1{
+        background-color:#f4511e;
+    color:#fff;
+    padding: 100px 50px;
+     }
+     .btn{
+         padding-right:20px;
+     }
+     .container-fluid{
+        padding: 60px 40x;
+     }
+     .col-sm-4{
+         text-align:center;
+         margin:35px 0px;
+     }
+     .logo{
+         font-size:200px;
+         color: #f4511e;
+     }
+     .bg-grey {
+    background-color: #f6f6f6;
+  }
+.logo-small{
+color:#f4511e;
+    font-size: 50px;
+}
+.thumbnail{
+    padding: 0 20px 0;
+    border:0px;
+    border-radius:0px;
+}
+.thumbnail img{
+width: 100%;
+height:100%;
+margin-bottom:10px;
+}
+ bg{
+     height:80%;
+ } 
+ .plane{
+     border:1px solid#f4511e;
+     border-radius:0;
+     transition: 0.5s;
+ }
+ .plane-footing .btn:hover{
+     background: #fff;
+     border:1px solid #f4511e;
+     color:#f4511e;
+ }
+ .plane-heading{
+     background-color:#f4511e;
+     color:#fff;
+     padding:25px;
+     border-bottom: 1px solid transparent;
+     border-top-right-radius: 0;
+     border-top-left-radius: 0px;
+     border-bottom-right-radius:0;
+     border-bottom-left-radius:0;
+ }
+ .plane-footing{
+     font-size:20px;
+     padding:10px;
+ }
+ .plane-footing h3{
+     font-size:45px;
+ }
+ .plane-footing h4{
+     font-size:10px;
+ }
+
+ .plane-footing .btn{
+     font-size:22px;
+     padding:10px;
+ }
+ .plane-body{
+     font-size:20px;
+ }
+
+ h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+ </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    
+        <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a  class="navbar-brand" href="#myPage">LOGO</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#services">SERVICES</a></li>
+                            <li><a href="#protfolic">PROTFOLIC</a></li>
+                            <li><a href="#pricing">PRICING</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        <div class="jumbotron bg-1 text-center">
+            <h1>COMPANY</h1>
+            <p>We specialize in product supply</p>
+        
+        <form class="form-inline">
+            <input type="email" class="form-control" size="50" width="60" placeholder="EMAIL ADDRESS"> 
+<button type="button" value="" class="btn btn-danger" >subscribe</button>
+        </form>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                        <h2>About Company</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button type="button" class="btn btn-default btn-lg">Get in Touch</button>
+                </div>
+            <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-signal logo"></span>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-grey">
+            <div class="row">
+                    <div class="col-sm-4">
+                            <span class="glyphicon glyphicon-globe logo"></span>
+                        </div>
+                <div class="col-sm-8">
+                        <h2>Our Values</h2>
+                        <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                        <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              
+        </div>
+    </div>
+
+    <div class="container-fluid text-center">
+        <h2>SERVICES</h2>
+        <h4>WHAT WE OFFER!!</h4>
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-off logo-small"></span>
+                <h4>POWER</h4>
+                <h5>Lorem ipsum dolor sit amet..</h5>
+            </div>
+            <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-lock logo-small"></span>
+                    <h4>JOB DONE</h4>
+                    <h5>Lorem ipsum dolor sit amet..</h5>
+                </div>
+                <div class="col-sm-4">
+                        <span class="glyphicon glyphicon-wrench logo-small"></span>
+                        <h4>HARD WORK</h4>
+                        <h5>Lorem ipsum dolor sit amet..</h5>
+                    </div>
+                    <div class="col-sm-4">
+                            <span class="glyphicon glyphicon-heart logo-small"></span>
+                            <h4>LOVE</h4>
+                            <h5>Lorem ipsum dolor sit amet..</h5>
+                        </div>
+                            <div class="col-sm-4">
+                                    <span class="glyphicon glyphicon-certificate logo-small"></span>
+                                    <h4>CERTIFIED</h4>
+                                    <h5>Lorem ipsum dolor sit amet..</h5>
+                                </div>
+                                <div class="col-sm-4">
+                                        <span class="glyphicon glyphicon-leaf logo-small"></span>
+                                        <h4>GREEN</h4>
+                                        <h5>Lorem ipsum dolor sit amet..</h5>
+                                    </div>
+        </div>
+    </div>
+            <div class="container-fluid text-center">
+                <h2>PORTIFOLIC</h2>
+                <h4>What we have created</h4>
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="e.jpg" alt="PARIS">
+                            <p><strong>PARIS</strong></p>
+                            <p>We built paris</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                            <div class="thumbnail">
+                                <img src="f.jpg" alt="NEW YORK">
+                                <p><strong>NEW YORK</strong></p>
+                                <p>We built New YORK</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                                <div class="thumbnail">
+                                    <img src="a.jpg" alt="SAN FRACISCO">
+                                    <p><strong>SAN FRACISCO</strong></p>
+                                    <p>We built San Fracisco</p>
+                                </div>
+                            </div>
+                </div>
+            </div>
+            <!-- carousel idicators -->
+
+            <div class="carousel slide text-center"id="myCarousel" data-ride="carousel">
+
+                    <h2>WHAT ARE OUR COSTUMER SAY</h2>   
+
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                          <h4>"This company is the best.I am so happy with the result!"<br><span style="font-style:normal;">Chandler Bing,Actor,FriendsAlot</h4>
+                      </div>  
+                      <div class="item">
+                          <h4>The company is helpful in many ways<br><span style="font-style:normal;">sample2</span></h4>
+                      </div>
+                      <div class="item">
+                          <h4>The company is base on inovative idea<br><span style="font-size:normal;">sample3</span></h4>
+                      </div>
+                    </div>
+                    <ol  class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2" ></li>
+                        </ol>
+                    <a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                    <a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    
+                </div>
+
+            <br> 
+         
+            <div class="container-fluid">
+                <div class="text-center">
+                    <h2>PRICING</h2>
+                    <h4>Choose the payment plan that suit you!!</h4>
+                         </div>
+                         <div class="row text-center">
+                             <div class="col-sm-4">
+                                    <div class="plane plane-default text-center">
+                                            <div class="plane-heading">
+                                                <h1>BASIC</h1>
+                                            </div>
+                                            <div class="plane-body">
+                                                   <p><strong>20</strong> Lorem</p>
+                                                   <p><strong>15</strong> Ipsum</p>
+                                                   <p><strong>5</strong> Dolor</p>
+                                                   <p><strong>2</strong> Sit</p>
+                                                   <p><strong>Endless</strong> Amet</p>
+                                            </div>
+                                            <div class="plane-footing">
+                                                <h3>$29</h3>
+                                                <h4>per month</h4>
+                                                <p>pricing</p>
+                                                <button type="button" class="btn btn-danger">SIGNUP</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                            <div class="plane plane-default text-center">
+                                                    <div class="plane-heading">
+                                                        <h1>GOLD</h1>
+                                                    </div>
+                                                    <div class="plane-body">
+                                                           <p><strong>30</strong> Lorem</p>
+                                                           <p><strong>25</strong> Ipsum</p>
+                                                           <p><strong>7</strong> Dolor</p>
+                                                           <p><strong>4</strong> Sit</p>
+                                                           <p><strong>Endless</strong> Amet</p>
+                                                    </div>
+                                                    <div class="plane-footing">
+                                                        <h3>$70</h3>
+                                                        <h4>per month</h4>
+                                                        <p>pricing</p>
+                                                        <button type="button" class="btn btn-danger">SIGNUP</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                    <div class="plane plane-default text-center">
+                                                            <div class="plane-heading">
+                                                                <h1>PREMIUM</h1>
+                                                            </div>
+                                                            <div class="plane-body">
+                                                                   <p><strong>20</strong> Lorem</p>
+                                                                   <p><strong>45</strong> Ipsum</p>
+                                                                   <p><strong>25</strong> Dolor</p>
+                                                                   <p><strong>10</strong> Sit</p>
+                                                                   <p><strong>Endless</strong> Amet</p>
+                                                            </div>
+                                                            <div class="plane-footing">
+                                                                <h3>$129</h3>
+                                                                <h4>per month</h4>
+                                                                <p>pricing</p>
+                                                                <button type="button" class="btn btn-danger">SIGNUP</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                             </div>   
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+            <h2 class="text-center">CONTACT US</h2>
+                <div class="col-sm-5">
+                <P>For more information fillup the details</P>
+                <p><span class="glyphicon glyphicon-map-marker"></span>MURGIYA,RUPANDEHI</p> 
+                <p><span class="glyphicon glyph-icon-phone"></span>+977 9819406078</p>    
+                <p><span class="glyphicon glyphicon-envelope"></span>sushilsubedi151@gmail.com</p> 
+            </div>
+            
+            <div class="col-sm-7">
+            <div class="col-sm-7 form-group">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+            </div>
+            <div class="col-sm-6 form-group">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required>
+                </div>
+                <div class="col-sm-12 form-group">
+                        <textarea type="comment" class="form-control" id="comment" name="comment" placeholder="COMMENT"></textarea><br>
+                    </div>
+                    <button type="submit" class="btn btn-default pull-right">Submit</button>
+                </div>
+                </div>
+                <img src="map.jpg" width="100%"/>
+                <!-- navigation bar -->
+                        <footer class="container-fluid text-center">
+                          <a href="#myPage" title="To Top">
+                            <span class="glyphicon glyphicon-chevron-up"></span>
+                          </a>
+                          <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="sushil">by sushil</a></p> 
+                        </footer>
+               
+                <script>
+                        $(document).ready(function(){
+                          // Add smooth scrolling to all links in navbar + footer link
+                          $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                        
+                           // Make sure this.hash has a value before overriding default behavior
+                          if (this.hash !== "") {
+                        
+                            // Prevent default anchor click behavior
+                            event.preventDefault();
+                        
+                            // Store hash
+                            var hash = this.hash;
+                        
+                            // Using jQuery's animate() method to add smooth page scroll
+                            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                            $('html, body').animate({
+                              scrollTop: $(hash).offset().top
+                            }, 900, function(){
+                        
+                              // Add hash (#) to URL when done scrolling (default click behavior)
+                              window.location.hash = hash;
+                              });
+                            } // End if
+                          });
+                        })
+                        </script>
+                       
+</body>
+</html>
